@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leader Board</title>
+    <style>
+        .players img{
+            height: 50px;
+            width: 50px;
+            margin-right: 20px;
+            margin-left: 80px;
+        }
+        .Top-Players{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-gap: 30px;
+        }
+        .players{
+            display: flex;
+            align-items: center;
+        }
+        .One{
+            margin: 0 180px;
+            height: 300px;
+            width: 1000px;
+            margin-top: 90px;
+            background-color: rgb(70, 130, 180,0.4);
+            border-bottom: 4px solid gray;
+            border-top: 4px solid gray;
+            border-radius: 10px;
+            margin-bottom: 19px;
+        }
+        .details img{
+            height: 100px;
+            width: 150px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 30px;
+        }
+        .details{
+            display: flex;
+            margin-left: 40px;
+            align-items: center;  
+        }
+        .details h3,p{
+            margin-left: 10px;
+        }
+        .two{
+            height: 350px;
+            width: 980px;
+            margin: 0 180px;
+            background-color: rgb(70, 130, 180,0.4);
+            border-bottom: 4px solid gray;
+            border-top: 4px solid gray;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 19px;
+        }
+        .course p{
+            color: royalblue;
+        }
+        .course img{
+            height: 150px;
+            width: 250px;
+            margin-left: 20px;
+        }
+        .top-course{
+            display: flex;
+        }
+        .course{
+            height:350px;
+            width:300px;
+            margin-left: 39px;
+        }
+        .more-details{
+            margin-left: 10px;
+        }
+        .three{
+            height: 350px;
+            width: 980px;
+            margin: 0 180px;
+            background-color: rgb(70, 130, 180,0.4);
+            border-bottom: 4px solid gray;
+            border-top: 4px solid gray;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 19px;
+        }
+        main{
+            background-color: antiquewhite;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+       <section>
+        <section class="One">
+            <h2>Top Players</h2>
+               <section class="Top-Players">
+                   <div class="players">
+                       <img src="images/Ellipse.png" alt="">
+                       <h3>John Smith</h3>
+                   </div>
+                   <div class="players">
+                       <img src="images/Ellipse-1.png" alt="">
+                       <h3>Pro Rasel</h3>
+                   </div>
+                   <div class="players">
+                       <img src="images/Ellipse-2.png" alt="">
+                       <h3>Abu Sufian</h3>
+                   </div>
+                   <div class="players">
+                       <img src="images/Ellipse-3.png" alt="">
+                       <h3>Mujahid Chy</h3>
+                   </div>
+                   <div class="players">
+                       <img src="images/Ellipse-4.png" alt="">
+                       <h3>Shajedul Karim</h3>
+                   </div>
+                   <div class="players">
+                       <img src="images/Ellipse-5.png" alt="">
+                       <h3>Shanto</h3>
+                   </div>
+               </section>
+           </section>
+           
+       </section>
+       <section class="two">
+            <h2>Top Blogs</h2>
+            <section class="container">
+            <div class="details">
+                <img src="images/Mask Group.png" alt="">
+                <div class="more-details">
+                     <h3>13 of My Favorite UI/UX Goodies</h3>
+                     <p>By <a href="www.google.com">Danny Sapio</a></p>
+                </div>
+            </div>
+            <div class="details">
+                <img src="images/Mask Group-1.png" alt="">
+                <div class="more-details">
+                     <h3>UI cheat sheet: list vs grids</h3>
+                     <p>By <a href="www.google.com">Danny Sapio</a></p>
+                </div>
+            </div>
+            <div class="details">
+                <img src="images/Mask Group-2.png" alt="">
+                <div class="more-details">
+                     <h3>7 typography tips for interface design</h3>
+                     <p>By <a href="www.google.com">Danny Sapio</a></p>
+                </div>
+            </div>
+            <div class="details">
+                <img src="images/Mask Group-3.png" alt="">
+                <div class="more-details">
+                     <h3>Your logo is copied</h3>
+                     <p>By <a href="www.google.com">Danny Sapio</a></p>
+                </div>
+            </div>
+        </section>
+       </section>
+       <section>
+           <section class="three">
+               <h2>Top Course</h2>
+               <section class="top-course">
+                <div class="course">
+                    <img src="images/Mask Group-3.png" alt="">
+                    <div class="more-details">
+                         <h3>React-The Complete Giude 2020</h3>
+                         <p>Walter Scott </p>
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="images/Mask Group-4.png" alt="">
+                    <div class="more-details">
+                         <h3>PowerPoint 2020 - Master PowerPoint Cour</h3>
+                         <p>Reed Krakoff.</p>
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="images/Mask Group-5.png" alt="">
+                    <div class="more-details">
+                         <h3>The Complete JavaaScript Course - 2020</h3>
+                         <p>Reed Krakoff</p>
+                    </div>
+                </div>
+               </section>
+
+           </section>
+       </section>
+    </main>
+
+</body>
+</html>
